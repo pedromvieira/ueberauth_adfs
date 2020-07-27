@@ -52,7 +52,7 @@ defmodule UeberauthAdfs.MixProject do
     [
       {:earmark, ">= 1.2.0", only: :dev, runtime: false},
       {:ex_doc, ">= 0.16.0", only: :dev, runtime: false},
-      {:httpoison, "~> 0.13.0"},
+      {:httpoison, ">= 0.13.0"},
       {:joken, ">= 1.5.0"},
       {:mock, ">= 0.3.0", only: :test},
       {:oauth2, ">= 0.9.0"},
